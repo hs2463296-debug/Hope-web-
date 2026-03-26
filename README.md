@@ -23,6 +23,7 @@ This script is a **full project generator**, not just a setup tool.
 ---
 
 ## 📁 Generated Project Structure
+```json
 {
   "new-gen-box": {
     "server.js": "file",
@@ -34,6 +35,8 @@ This script is a **full project generator**, not just a setup tool.
     "assets": {}
   }
 }
+```
+
 ---
 
 ⚙️ Setup & Run (Step-by-Step)
