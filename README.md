@@ -30,7 +30,7 @@ When you run the script:
 
 ```bash
 python3 setup_newgenbox.py
-
+```
 You will see:
 
 ✓ server.js
@@ -169,43 +169,43 @@ Contribute 🛠
 🔗 HTTPS
 ```bash
 git clone https://github.com/hs2463296-debug/Hope-web-.git
-
+```
 🔐 SSH
 ```bash
 git clone git@github.com:hs2463296-debug/Hope-web-.git
-
+```
 💻 GitHub CLI
 ```bash
 gh repo clone hs2463296-debug/Hope-web-
-
+```
 
 ---
 
 📂 2. Enter Project
 ```bash
 cd Hope-web-
-
+```
 
 ---
 
 ▶️ 3. Run Setup Script
 ```bash
 python3 setup_newgenbox.py
-
+```
 
 ---
 
 📂 4. Open Generated Project
 ```bash
 cd new-gen-box
-
+```
 
 ---
 
 ⚙️ 5. Configure Environment
 ```bash
 nano .env
-
+```
 Add:
 
 EMAIL_USER=your_email@gmail.com
@@ -218,14 +218,14 @@ JWT_SECRET=your_secure_random_string
 🚀 6. Start Server
 ```bash
 node server.js
-
+```
 
 ---
 
 🌐 7. Open in Browser
 ```bash
 http://localhost:3000
-
+```
 
 ---
 
