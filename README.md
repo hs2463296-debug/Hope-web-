@@ -23,17 +23,17 @@ This script is a **full project generator**, not just a setup tool.
 ---
 
 ## 📁 Generated Project Structure
-
-new-gen-box/
-├── server.js
-├── .env
-├── public/
-├── routes/
-├── controllers/
-├── sockets/
-├── assets/
-
-
+{
+  "new-gen-box": {
+    "server.js": "file",
+    ".env": "file",
+    "public": {},
+    "routes": {},
+    "controllers": {},
+    "sockets": {},
+    "assets": {}
+  }
+}
 ---
 
 ⚙️ Setup & Run (Step-by-Step)
