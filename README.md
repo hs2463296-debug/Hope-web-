@@ -23,20 +23,75 @@ This script is a **full project generator**, not just a setup tool.
 ---
 
 ## 📁 Generated Project Structure
-```json
-{
-  "new-gen-box": {
-    "server.js": "file",
-    ".env": "file",
-    "public": {},
-    "routes": {},
-    "controllers": {},
-    "sockets": {},
-    "assets": {}
-  }
-}
 ```
-
+new-gen-box/
+├── server.js
+├── package.json
+├── package-lock.json
+├── .env
+├── README.md
+│
+├── config/
+│   └── config.js
+│
+├── controllers/
+│   ├── authController.js
+│   ├── userController.js
+│   ├── messageController.js
+│   └── contactController.js
+│
+├── middleware/
+│   ├── auth.js
+│   ├── rateLimit.js
+│   └── upload.js
+│
+├── models/
+│   ├── db.js
+│   ├── Counter.js
+│   ├── User.js
+│   ├── Message.js
+│   └── OTP.js
+│
+├── routes/
+│   ├── auth.js
+│   ├── user.js
+│   ├── message.js
+│   └── contact.js
+│
+├── socket/
+│   └── socketHandlers.js
+│
+├── utils/
+│   ├── logger.js
+│   ├── encryption.js
+│   ├── emailService.js
+│   └── validators.js
+│
+├── database/
+│   └── db.json
+│
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   ├── service-worker.js
+│   │
+│   ├── css/
+│   │   └── style.css
+│   │
+│   └── js/
+│       ├── main.js
+│       ├── auth.js
+│       ├── socket.js
+│       ├── chat.js
+│       ├── chatList.js
+│       ├── contacts.js
+│       ├── profile.js
+│       ├── mediaViewer.js
+│       ├── storage.js
+│       └── utils.js
+│
+└── logs/
+```
 ---
 
 ⚙️ Setup & Run (Step-by-Step)
